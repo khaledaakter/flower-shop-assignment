@@ -268,3 +268,13 @@ p.copyright {
 }
 
 
+/* beautiful-flowers style */
+.beautiful-flowers-container {
+    margin-bottom: 120px;
+}
+.beautiful-flowers-content {
+    width: 100%;
+    text-align: center;
+}
+
+
