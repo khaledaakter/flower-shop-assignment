@@ -1,0 +1,270 @@
+/* Common style */
+body,
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 0 auto 48px;
+    max-width: 594px;
+}
+
+.center-align {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.red-btn {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 18px 30px;
+}
+
+main {
+    /* margin-top: 120px; */
+    margin-bottom: 120px;
+}
+
+/* Top Banner Section style */
+
+.top-banner-section {
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 120px;
+}
+
+.top-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {    
+    width: 708px;
+    padding: 20px 0 0; 
+}
+.banner-content .section-text {
+    text-align: left;
+    margin: 0 0 30px;
+}
+
+.banner-image {
+    width: 518px;
+    margin-top: 50px;
+}
+
+.banner-title {
+    color: #272727;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+/* our-feature-section style */
+
+.our-feature-section {
+    margin-bottom: 120px;
+}
+
+.our-feature-body {
+    display: flex;
+    gap: 24px;
+}
+
+.our-feature-body figure {
+    width: 464px;
+    text-align: center;
+}
+
+.our-feature-body .figure-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 30px;
+} 
+
+.figure-1 .figure-image {
+    background: rgba(167, 33, 98, 0.15);
+} 
+
+.figure-2 .figure-image {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.figure-3 .figure-image {
+    background: rgba(71, 125, 17, 0.15);    
+} 
+
+.figure-2 img {
+    margin-bottom: 30px;
+}
+
+figcaption {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.our-feature-container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 85px 20px;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.icon-box img {
+    width: 88px;
+    margin-bottom: 24px;
+}
+
+.icon-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* hot-deal-section style */
+
+.hot-deal-section {
+    margin-bottom: 120px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    gap: 185px;
+}
+
+.hot-deal-content {
+    text-align: center;
+}
+
+.hot-deal-content .section-title strong {
+    color: #E55473;
+    font-weight: 800;
+}
+
+
+
+/* instagram-section style */
+
+.instagram-section {
+    margin-bottom: 120px;
+}
+
+.instagram-body {
+    display: flex;
+    gap: 24px;
+}
+
+
+/* subscribe-section style */
+
+.subscribe-section {
+    background-image: url(./images/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 120px 20px;
+    border-radius: 8px;
+}
+
+.subscribe-section .section-title {
+    margin-bottom: 16px;
+}
+
+.subscribe-form {
+    max-width: 865px;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+}
+
+.subscribe-input {
+    width: 700px;
+    margin-right: 15px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    padding: 22px;
+    border: 0;
+}
+
+
+
+
+/* footer style */
+footer {
+    background: #111010;
+    width: 100%;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-heading span {
+    font-weight: 800;
+}
+.footer-heading span {
+    color: #E55473;
+}
+
+footer .section-text {
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 30px;
+}
+
+p.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
